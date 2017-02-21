@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>My Profile</title>
+	<link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+	<header>
+		<nav style="text-align:right;">
+			<a href="Logout">Logout</a>
+		</nav>
+	</header>
+	<h1>Maria Grecia</h1>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates quaerat cumque eum assumenda est id dolorum obcaecati nam at! Nihil, rem, autem. Similique sapiente facilis atque blanditiis quibusdam ut nostrum!
+	</p>
+	<section>
+		<h2>Experiencia</h2>
+		<div>
+			<h3>Laboratoria</h3>
+			<p>Profesor bootcamp en laboratoria</p>
+			<a target="_blank" href="http://laboratoria.la">Ver Pagina de laboratoria</a>
+		</div>
+		<div>
+			<h3>UPC</h3>
+			<p>Profesor de Desarrollo  Web</p>
+			<a href="http://upc.edu.pe">Ver pagina UPC</a>
+		</div>	
+	</section>
+	<br>
+	<section>
+		<form action="/contacto">
+		<div>
+			<label for="nombre">Nombre:</label> <!-- for va relacionado con el ID de l input-->
+			<input type="text" id="nombre">
+		</div><br>
+		<div>
+			<label for="email">Email:</label>
+			<input type="text" id="email">
+		</div>
+		<div>
+			<label for="texto">Deja tu mensaje:</label><br>
+			<textarea name="texto" id="texto" cols="30" rows="10"></textarea>
+		</div>
+		<button type="submit">Enviar</button>
+		</form>
+	</section>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
+
+<!--
+  /NombreProyecto
+	/assets
+		/css
+		  main.css
+		  style.css
+		/js
+		  app.js
+		/images
+	index.html	
+ -->
